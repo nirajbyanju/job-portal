@@ -1,0 +1,190 @@
+.opportunity-view-dashboard{
+    padding: 10px;
+}
+.anim-icon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.anim-icon .anim-icon-1 {
+    left: 200px;
+    top: 275px;
+    width: 12px;
+    height: 13px;
+}
+.anim-icon .icon {
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.rotate-me {
+    animation-name: rotateme;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rotateme;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotateme;
+    -moz-animation-duration: 30s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: rotateme;
+    -ms-animation-duration: 30s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: rotateme;
+    -o-animation-duration: 30s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+.pattern-1 {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 164px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.pattern-2 {
+    position: absolute;
+    right: 782px;
+    top: 289px;
+    width: 50px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+.pattern-3 {
+    position: absolute;
+    top: 245px;
+    left: 76%;
+    width: 174px;
+    height: 174px;
+    background-repeat: no-repeat;
+}
+.opportunity-intro-view{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.opportunity-view-text{
+    width: 600px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.opportunity-view-text h2{
+    font-weight: 600;
+    font-size: 55px;
+    color: #062d5e;
+}
+.opportunity-view-text p{
+    color: #007bff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.opportunity-view-image{
+    position: relative;
+}
+.image-layer {
+    position: absolute;
+    bottom: 9px;
+    right: -75px;
+    z-index: 1;
+    width: 650px;
+}
+.image-layer img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+.opporunity-intershps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.feature-section-opp{
+    margin-bottom: 80px;
+}
+
+@media (max-width:1024px){
+    .image-layer {
+        position: absolute;
+        bottom: -3px;
+        right: -75px;
+        z-index: 1;
+        width: 544px;
+    }
+    .opportunity-view-text h2 {
+        font-weight: 600;
+        font-size: 35px;
+        color: #062d5e;
+    }
+    .opportunity-view-text {
+        width: 460px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+@media (max-width:768px){
+    .opportunity-view-text {
+        width: 380px;
+    }
+    .image-layer {
+        position: absolute;
+        bottom: 26px;
+        right: -75px;
+        z-index: 1;
+        width: 520px;
+    }
+
+    .inner-boxs {
+        width: 400px !important;
+    }
+    .inners img {
+        width: 100%!important;
+        border-radius: 2px;
+    }
+
+}
+@media (max-width:600px){
+    .opportunity-view-image{
+        display: none;
+    }
+    .opportunity-view-text {
+        width: 600px;}
+
+     #tranding {
+        padding-top: 0
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: -60px}
+    .sec-heading h2 {
+        color: #1c4980;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 60px;
+        }
+        .sec-heading {
+            margin-bottom: 10px;
+        }
+        .inner-boxs {
+            width: 300px !important;
+        }
+        .inners img {
+            width: 100%!important;
+            border-radius: 2px;
+        }
+        
+}

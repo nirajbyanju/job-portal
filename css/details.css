@@ -1,0 +1,77 @@
+
+.about-section{
+ 
+  background:url(http://127.0.0.1:8000/images/background/page-title1.jpg) no-repeat;
+  
+  
+}
+
+.circular--square { 
+  
+  border-radius: 50%;
+  width: 13rem;
+  max-height: 13rem;
+  background: #fff;
+  height: 13rem;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+ 
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-shadow: 1px 0 0 10px #788aac30;
+  box-shadow: 1px 0 0 10px #ffff;
+}
+.company-info {
+  float: left;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+ 
+
+}
+
+.company-info .company-title {
+  background: #0e213f;
+  margin: 0;
+  float: left;
+  clear: both;
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 2.2em;
+  font-weight: 300;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;  
+  justify-content: space-around;
+			flex-wrap: wrap; 
+      transition: all 0.2 linear;
+}
+
+.job-expiry-date {
+  float: left;
+  background: #fff;
+  padding: 5px 10px;
+  clear: both;
+  width: 100%;
+  
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.job-details{
+  padding: 40px;
+  margin: 0;
+}
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  flex-wrap: wrap
+  }
+
+

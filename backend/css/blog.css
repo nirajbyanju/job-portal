@@ -1,0 +1,397 @@
+
+.form-rows{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.header_main_text p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #5e2dd8;
+}
+.ck.ck-editor__editable_inline > :last-child {
+  height: 330px;
+}
+.header_blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    background-color:#f8f9fc ;
+    padding: 15px;
+}
+.header_addpost_button{
+    margin-top: 10px;
+}
+.header_addpost_button a{
+    color: #fff;
+    background-color: #4e73df;
+    border-color: #4e73df;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+.searching-box-main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.selecting-table label{
+    font-size: 1rem;
+    color: #858796;
+}
+.selecting-table select {
+    height: calc(1.5em + .5rem + 2px);
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    padding-left: .5rem;
+    font-size: .875rem;
+    color: #858796;
+}
+.search-table {
+    display: flex;
+    align-items: center;
+}
+
+.search-label {
+    font-size: 1rem;
+    color: #858796;
+    margin-right: 0.5rem; /* Add some spacing between label and input */
+}
+
+.search-box-blogs {
+    flex: 1; /* Expand the input to fill available space */
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e707e;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d1d3e2;
+    border-radius: .35rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.main-title-blogsshow th{
+    color: #858796;
+    
+}
+.card{
+    word-wrap: normal;
+}
+label{
+    font-size: 16px;
+    font-weight: 700;
+    color: #858796;
+}
+.first-row, .second-row, .third-row, .fourth-row, .fifth-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.title-row, .entry-row,.status,.author,.category, .media-selects{
+    display: flex;
+    flex-direction: column;
+}
+.inputform{
+    display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6e707e;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d1d3e2;
+  border-radius: .35rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+/*this is the CSS of Phot preview*/
+.delete-photo-button {
+    background-color: #3854a5 !important;
+    color: white;
+    padding: 10px 14px;
+    font-size: 16px;
+    box-shadow: 0 0 4px rgb(0 0 0 / 30%);
+    position: absolute;
+    top: 34px;
+    right: 7px;
+    border-radius: 5px;
+  }
+  .fa {
+    color: rgb(255, 255, 255) !important;
+  }
+  /* Darker background on mouse-over */
+  .delete-photo-button:hover {
+    background-color: rgb(221, 58, 74) !important;
+  }
+  .fa:hover {
+    color: rgb(6, 26, 58) !important;
+  }
+
+
+  .upload-logo {
+    display: none;
+    margin-right: 1rem;
+  }
+  
+  #upload-photo,#upload-photo2 {
+    align-items: center;
+    display: flex;
+    height: 18rem;
+    justify-content: center;
+    width: 100%;
+    background: rgba(241, 242, 244, 0.4) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1.6px dashed rgba(200, 204, 209, 0.7);
+    border-radius: 6px;
+    flex-flow: column nowrap;
+    padding: 0px 20px;
+  }
+  
+  @media (max-width: 576px) {
+    #upload-photo {
+      width: 100%;
+      height: 20rem;
+    }
+  }
+
+  
+  #preview-photo,#preview-photo2  {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+  }
+  
+  #input-file, #input-file2 {
+    display: none;
+  }
+  
+  #delete-photo-button, #delete-photo-button2 {
+    display: none;
+    border: none;
+  }
+  #drop-here, #drop-here2{
+    display: block;
+    
+  }
+  .H3_7{
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: var(--gray-900);
+      margin-bottom: 6px;
+    }
+  .P_8{
+    font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: var(--gray-900);
+      margin-bottom: 6px;
+  }
+
+    #FIGURE_1,  #FIGURE_2 {
+    width: 90px;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin: 0;
+    position: relative;
+    top: 65px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+  .category-posting-container{
+    padding: 0 30px;
+    width: 500px;
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+.category-add-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #e3e6f0;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+.category-add-title h5, .category-add-title i{
+  font-size: 18px;
+  font-weight: 600;
+}
+.category-name, .category-slug{
+  display: flex;
+  flex-direction: column;
+  
+}
+.category-button{
+  display: flex;
+  justify-content: flex-end;
+}
+.category-input{
+  display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e707e;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d1d3e2;
+    border-radius: 0.35rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.category-input-cat{
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e3e6f0;
+  padding: 20px 0;
+}
+.category-addbutton{
+  margin-right: 10px;
+}
+.category-addbutton button{
+    color: #fff;
+    background-color: #1cc88a;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.35rem;
+    border: none;
+    
+
+}
+.category-close p{
+  color: #fff;
+  background-color: #5e6361;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.35rem;
+  cursor: pointer;
+}
+.category-addbutton button:hover{
+  background-color: #066b46;
+}
+.category-close p:hover{
+  background-color: #931621;
+}
+#mediaPreview {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+ /* Adjust the max width as needed */
+}
+
+.image-wrapper {
+  position: relative;
+  margin-right: 10px; /* Adjust the spacing between images */
+  cursor: grab;
+  width: 150px;
+  height: 150px;
+}
+
+.preview-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styles for the drag-and-drop effect */
+.image-wrapper.dragging {
+  cursor: grabbing;
+}
+
+/* Styles for the delete button */
+.delete-button {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+  line-height: 24px;
+  z-index: 1;
+  cursor: pointer;
+  color: #fff;
+
+}
+
+.postingreset {
+  position: relative;
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 550;
+  color: #ffffff;
+  background-color: #dc3545;
+  border: none;
+}
+.postingreset:hover{
+  background-color: #3854a6;
+}
+.postingsubmit {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center;
+  border: 12px solid;
+  border-color: #3854a5;
+  background-color: #3854a6;
+  color: #ffffff;
+  cursor: pointer;
+}
+.postingsubmit:hover{
+  background-color: #119DA4;
+  border-color: #119DA4;
+}
+.blogs-button{
+  display: flex;
+  justify-content: space-between;
+}
+.post-paragraph{
+  font-size: 12px;
+}
+.postingdel {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent !important;
+}
+.postingdel i {
+  color: #DC143C;
+  font-size: 20px;
+}
+.postingupdate {
+  padding: 0;
+  margin-left: 10px;
+  border: none;
+  background-color: transparent !important;
+}
+.postingupdate i {
+  color: #119DA4;
+  font-size: 20px;
+}
+.postingupdate i:hover, .postingdel i:hover{
+  color: #4e73df;}
